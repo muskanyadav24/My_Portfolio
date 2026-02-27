@@ -1,0 +1,231 @@
+.btn-purple{
+    --bs-btn-border-color:none;
+    --bs-btn-hover-border-color: none;
+    background: linear-gradient(90deg, rgba(120,71,222,1) 0%, rgba(52,26,103,1) 100%);
+    transition: all 2s;
+}
+.btn-purple:hover{
+    background: linear-gradient(90deg, rgba(52,26,103,1) 0%, rgba(120,71,222,1) 100%);
+}
+.bg-color{
+    background-color: #160B23;
+}
+.bg-color{
+    background-color: #19082a;
+}
+.text-wh{
+    color: #DDDDDD;
+}
+body{
+    background-color: #0d0517;
+    font-family: "Sora", sans-serif;
+}
+.font-f{
+    font-family: "Merienda", cursive;
+}
+.font-caveat{
+    font-family: "Caveat", cursive;
+}
+.font-s-25{
+    font-size: 25px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.un-1, .un-2{
+    background-image: linear-gradient(to right ,white ,rgba(52,26,103,1) );
+    background-size: 0 2px;
+    background-position: 0 100%;
+    transition: all 0.2s ease-out;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.un-2{
+    background-size: 100% 2px;
+}
+.un-1:hover{
+    background-size: 100% 2px;
+}
+.banner, .section-s{
+    width: 100%;
+    height: 850px;
+    background: rgb(65,32,98);
+    background: radial-gradient(circle, rgba(65,32,98,1) 0%, rgb(24, 14, 35) 23%, rgb(11, 0, 21) 100%);
+}
+.section-s{
+    height: auto;
+}
+.text{
+    letter-spacing: 5px;
+    border-right: 3px solid #8750F7;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(14) infinite alternate,
+    cursor 1s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{ border-color: transparent }
+}
+@keyframes typing{
+    from{width: 0}
+}
+header{
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    background-color: #0d0517;
+    box-shadow: 0px 10px 20px 0px rgba(98, 46, 165, 0.2);
+}
+/* banner start */
+.g{
+    background-image: linear-gradient(90deg, #8750f7 0, #fff);
+}
+.bgc{
+    background-clip: text;
+}
+.text-transparent {
+    color: transparent;
+}
+.btn-my{
+    padding: 15px 75px;
+    color: #8750F7;
+    border-radius: 20px ;
+    background-color: transparent;
+    border: 1px solid #8750F7;
+}
+.cont-btn:hover{
+    color: white;
+    background-image: linear-gradient(90deg, #8750f7 0, #fff);
+}
+.bol{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #8750F7;
+}
+.cont-btn-1:hover{
+    background-image: linear-gradient(90deg, #8750f7 0, #fff);
+}
+.cont-btn-1 i{
+    color: #8750F7;
+}
+.cont-btn-1:hover i{
+    color: white;
+}
+.frame{
+    width: 64%;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 3px solid #452368;
+    transform: rotate(5deg);
+    transition: all 1s;
+}
+.frame:hover{
+    transform: rotate(0deg);
+    border: 3px solid #8750F7;
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+.frame-2{
+    width: 77%;
+    object-fit: cover;
+    transform: rotate(0deg);
+    border: 3px solid #8750F7;
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+/* banner end */
+/* section-4 start */
+.card-1{
+    width: 100%;
+    aspect-ratio: 2/2;
+    background-color: #1A0D28;
+    border-radius: 15px;
+}
+.frame-w{
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 3px solid #452368;
+}
+.c-1{
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+.card-1:hover{
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+/* section-4 end */
+.card:hover .card-img-top{
+    transform: scale(1.1);
+}
+.card .card-img-top{
+    transition: all 1s;
+}
+/* section-5 start */
+.box-education, .box-blog{
+    width: 50%;
+    height: auto;
+    background-color: rgb(25, 8, 42);
+    border-radius: 20px;
+}
+.box-education:hover{
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+/* section-5 end */
+/* section-6 start */
+.box-skills{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+/* section-6 end */
+/* section-7 start */
+.box-blog{
+    width: 100%;
+    background-color: rgba(26, 9, 43, 0.8);
+    border: 1px solid #452368; 
+}
+.card:hover .box-blog{
+    background-color: #160B23;
+}
+.card:hover .card-img{
+    transform: scale(1.2,1.2);
+}
+.scale{
+    transition: all 1s;
+}
+/* section-7 end */
+/* section-8 start */
+.mk-bg:hover{
+    box-shadow: 0px 10px 25px 0px rgba(98, 46, 165, 0.9);
+}
+input{
+    background-color: transparent;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    background-color: transparent;
+}
+textarea:focus{
+    outline: none;
+}
+/* section-8 end */
+/* footer start */
+.footer-bg{
+    background-image: linear-gradient(to right ,white ,rgba(52,26,103,1) );
+}
+.footer-img{
+    width: 100%;
+    height: auto;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url('../images/footer-img.jpg');
+}

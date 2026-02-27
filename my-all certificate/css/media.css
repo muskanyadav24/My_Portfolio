@@ -1,0 +1,32 @@
+@media(min-width:576px){
+    .box-skills-sm {
+        aspect-ratio: 3 / 2;
+    }
+}
+@media(min-width:768px){
+    .font-s-md{
+        font-size: 16px;
+    }
+    .mt-md{
+        margin-top: -74px;
+    }
+    .mk-md-bg{
+        width: 55%;
+    }
+    .box-skills-md{
+        aspect-ratio: 1/1;
+    }
+}
+@media(min-width:992px){
+    .w-lg-64{
+        width: 64% !important;
+    }
+    .m-lg{
+        margin-top: -98px;
+    }
+}
+@media(min-width:1200px){
+    .mt-xl-74{
+        margin-top: -74px;
+    }
+}

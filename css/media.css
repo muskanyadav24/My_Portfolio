@@ -1,0 +1,297 @@
+/* ==========================================================================
+   Responsive Design - Muskan Yadav Portfolio
+   ========================================================================== */
+
+/* Extra Small Devices (Portrait Phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 60px;
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .banner h1 {
+        font-size: 2.2rem !important;
+        line-height: 1.2 !important;
+    }
+
+    .banner .display-5 {
+        font-size: 1.2rem !important;
+    }
+
+    .banner .btn-outline-info.rounded-pill {
+        font-size: 0.8rem !important;
+        padding: 5px 15px !important;
+        white-space: normal;
+        text-align: center;
+    }
+
+    .banner .text-secondary.fs-5 {
+        font-size: 1rem !important;
+        line-height: 1.5 !important;
+    }
+
+    .banner .d-flex.gap-3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner .btn-purple,
+    .banner .btn-outline-light {
+        width: 100%;
+        padding: 12px 20px !important;
+        font-size: 1rem !important;
+    }
+
+    .neon-image-frame {
+        width: 280px;
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .stat-card {
+        padding: 30px 15px;
+    }
+
+    .stat-card h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .stat-card p {
+        font-size: 0.9rem !important;
+    }
+
+    .section-title h2 {
+        font-size: 2rem !important;
+    }
+
+    .frame,
+    .frame-2 {
+        width: 100% !important;
+    }
+
+    .work-img {
+        height: 200px;
+    }
+
+    .box-skills {
+        padding: 15px;
+    }
+
+    .footer-bg {
+        text-align: center;
+    }
+
+    /* About Section Personal Info Buttons Fix */
+    .btn-hov-s2 {
+        padding: 15px !important;
+        margin-top: 10px !important;
+        width: 100% !important;
+        font-size: 0.9rem !important;
+    }
+
+    .mt-5.ps-3.mt-sm-3 {
+        margin-top: 10px !important;
+        padding-left: 0 !important;
+    }
+
+    /* Certificate Cards Mobile Fix */
+    .cert-card {
+        height: auto !important;
+        min-height: 300px;
+    }
+
+    .cert-img {
+        height: 200px !important;
+    }
+
+    /* Fix Social Icons visibility on very small screens */
+    .bol.cont-btn-1 {
+        display: flex !important;
+        margin: 10px !important;
+    }
+
+    .footer-bg .d-flex {
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+
+    .footer-bg nav ul {
+        align-items: center;
+    }
+
+    .footer-bg nav ul li {
+        padding-right: 0 !important;
+    }
+}
+
+/* Small Devices (Landscape Phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .banner h1 {
+        font-size: 2.8rem !important;
+    }
+
+    .neon-image-frame {
+        width: 320px;
+        height: 400px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .frame,
+    .frame-2 {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .banner h1 {
+        font-size: 3.2rem !important;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .stat-card {
+        padding: 30px 15px;
+    }
+
+    .frame,
+    .frame-2 {
+        width: 75% !important;
+    }
+}
+
+/* Intermediate Devices (Large Tablets & Small Laptops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 60px;
+        height: auto !important;
+        min-height: 100vh;
+    }
+
+    .banner h1 {
+        font-size: 3.5rem !important;
+    }
+
+    .banner .display-5 {
+        font-size: 2rem !important;
+    }
+
+    .neon-image-frame {
+        width: 320px;
+        height: 420px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .stat-card {
+        padding: 40px 20px;
+    }
+}
+
+/* Custom Utilities for Responsiveness */
+.mk-bg-xs,
+.mk-bg-sm {
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 992px) {
+    header.scrolled {
+        padding: 15px 0;
+    }
+
+    .mk-bg-xs,
+    .mk-bg-sm {
+        margin-top: 0;
+    }
+}
+
+/* Offcanvas Menu Polish */
+.offcanvas {
+    border-left: 1px solid var(--primary-neon) !important;
+    background: rgba(5, 12, 13, 0.98) !important;
+    backdrop-filter: blur(20px);
+    width: 300px !important;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(115, 253, 210, 0.1);
+    padding: 20px;
+}
+
+.offcanvas-title {
+    color: var(--primary-neon);
+    font-family: var(--font-heading);
+    letter-spacing: 2px;
+}
+
+.btn-close {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(100deg);
+    opacity: 0.8;
+}
+
+.offcanvas-body {
+    padding: 30px 20px;
+}
+
+.offcanvas .nav-link {
+    font-size: 1.4rem !important;
+    padding: 18px 0 !important;
+    border-bottom: 1px solid rgba(115, 253, 210, 0.05);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.offcanvas .nav-link:hover {
+    color: var(--primary-neon) !important;
+    padding-left: 15px !important;
+    background: linear-gradient(90deg, rgba(115, 253, 210, 0.05), transparent);
+}
+
+/* Fix for Hero Section alignment on very small screens */
+@media (max-width: 450px) {
+    .banner h1 {
+        font-size: 2rem !important;
+    }
+
+    .typing-animation-container {
+        font-size: 1.1rem !important;
+    }
+}

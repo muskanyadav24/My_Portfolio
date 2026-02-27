@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.font-2{
+    font-family: "Faculty Glyphic", serif;
+}
+.container{
+    width: 1320px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+.row{
+    display: flex;
+    margin: 0px -16px;
+    flex-wrap: wrap;
+}
+.font-size-n{
+    font-size: 70px;
+    word-spacing: 10px;
+}
+.font-size-h{
+    font-weight: 300;
+}
+.font-weight-b{
+    font-weight: 700;
+}
+.logo{
+    width: 100%;
+    padding: 0px 8px;
+}
+.color-wh{
+    color: white;
+}
+.color-c{
+    color: rgba(255, 128, 2,0.5);
+}
+.color-o{
+    color: rgb(255, 128, 2);
+}
+.pos-rlv{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+ul, li{
+    list-style: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+nav .list{
+    padding: 12px 24px;
+    margin: 0px;
+}
+nav .list a{ 
+    color: white;
+}
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-content-sb {
+    justify-content: space-between;
+}
+.f-s{
+    font-size: 60px;
+}
+.f-s-30{
+    font-size: 30px;
+}
+.para{
+    font-size: 36px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-pb{
+    padding: 90px 0px 170px 0px;
+}
+.pt-90{
+    padding-top: 90px 0px;
+}
+.pb-90{
+    padding-bottom: 90px 0px;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pt-200{
+    padding-top: 200px;
+}
+.pt-150{
+    padding-top: 150px;
+}
+.pl-60{
+    padding-left: 100px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pr-25{
+    padding-right: 25px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.box, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10,.box11, .box12{
+    padding: 0 8px;
+}
+.box1{
+    width: 8.33%;
+}
+.box2{
+    width: 16.66%;
+}
+.box3{
+    width: 25%;
+}
+.box4{
+    width: 33.33%;
+}
+.box5{
+    width: 41.66%;
+}
+.box6{
+    width: 50%;
+}
+.box7{
+    width: 58.33%;
+}
+.box8{
+    width: 66.66%;
+}
+.box9{
+    width:  75%;
+}
+.box10{
+    width: 83.33%;
+}
+.box11{
+    width: 91.66%;
+}
+.box12{
+    width: 100%;
+}
+
+/* header strat */
+header{
+    background-color: black;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* header end */
+
+/* Banner start */
+/* section start-1 */
+.banner{
+    width: 100%;
+    background-image: url(../images/hero.png);
+}
+.p{
+    padding-left: 65px;
+    font-size: 20px;
+}
+/* section end-1 */
+
+/* section start-2 */
+.about{
+    width: 100%;
+    background-color: black;
+}  
+.us{
+    width: 100%;
+    background-color: orange;
+} 
+/* section end-2 */
+/* section start-3 */
+.food{
+    width: 100%;
+    /* height: 600px; */
+    background-color: black;
+}
+.head{
+    top: 335px;
+    left: 180px;
+}
+.head-1{
+    top: 415px;
+    left: 180px;
+}
+.shape{
+    position: absolute;
+    right: 0px;
+    width: 28%;
+}
+.shape-2{
+    position: absolute;
+    bottom: 13px;
+    width: 39%;
+}
+.shape-3{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    top: 725px;
+}
+/* section end-3 */
+/* section start-4 */
+.our{
+    width: 100%;
+    height: auto;
+    background-color: #0F1218;
+}
+.card-2{
+    width: 100%;
+    height: fit-content;
+}
+/* section end-4 */
+/* section start-5 */
+.enjoy{
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/img-12.png);
+    background-size: cover;
+    z-index: -1;
+}
+.our-food{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0,0.5); 
+    padding: 60px;
+    border: 10px solid rgb(255, 128, 2);
+    box-shadow: 0px 10px 30px 0px rgba(255, 128, 2,0.5);
+    position: absolute;
+    left: 325px;
+    top: 220px;
+}
+/* section end-5 */
+/* section start-6 */
+.our-menu{
+    width: 100%;
+    height: fit-content;
+    background-color: #16161E;
+}
+.card{
+    width: 100%;
+    height: fit-content;
+}
+.frame{
+    width: 100%;
+    /* aspect-ratio: 1/1; */
+}
+.but a{
+    color:  rgb(255, 128, 2);
+    font-size: 25px;
+}
+/* section end-6 */
+/* section strat-7 */
+.enjoy-best{
+    width: 100%;
+    height: fit-content;
+    background-color: #FA9000;
+}
+.img-row{
+    top: -45px;
+}
+/* section end-7 */
+/* footer-strat */
+.footer-f{
+    width: 100%;
+    height: fit-content;
+    background-color: #0F1218;
+}
+nav .list-2{
+    padding: 12px 24px;
+    margin: 0px;
+}

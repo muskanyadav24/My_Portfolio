@@ -1,0 +1,343 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.h-s{
+    background-color: #589167;
+}
+.text-color-s{
+    color: #589167;
+}
+.letter-spacing{
+    letter-spacing: 3px;
+}
+.color-ofw{
+    color: #F5F4F0;
+}
+.bg-light-clo{
+    background-color:#F5F4F0;
+}
+.mt-100{
+    margin-top: -100px;
+}
+.mt-315{
+    margin-top: -315px;
+}
+.py-90{
+    padding: 90px;
+}
+.py-90{
+    padding: 90px 0px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-s-15{
+    font-size: 15px;
+}
+.fs-19{
+    font-size: 19px;
+}
+.p-13{
+    padding: 13px;
+}
+.h-h{
+    background-color: black;
+}
+.h-h-2{
+    background-color: white;
+}
+.bg-1{
+    background-color: #528760;
+}
+.bg-2{
+    background-color: #4E815C;
+}
+.mt-45{
+    margin-top: -45px;
+}
+header{
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    box-shadow: 0px 10px 30px 0px rgba(85, 85, 85, 0.2);
+}
+/* banner start */
+.banner{
+    height: 750px;
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+}
+/* section-1 start */
+.but{
+    width: 75px;
+    height: 75px;
+}
+.button:hover .but{
+    box-shadow: 0px 10px 30px 0px rgba(10, 210, 142, 0.9);
+}
+.services-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #F5F4F0;
+}
+.ftco{
+    width: 16%;
+    height: 250px;
+    background-color: #589167;
+    transform: translateY(-130px);
+}
+.img-sectione-3{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/img-2.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+.icon{
+    z-index: 1;
+}
+.icon-2{
+    width: 35px;
+    height: 35px;
+    top: 38%;
+    right: 22%;
+    border-radius: 50%;
+    background-color: #528760;
+    transition: all 0.3s ease;
+}
+.img-2{
+    background-color: #F5F4F0;
+}
+.bg{
+    background-color: #4E815C;
+}
+.translate-middle-tm {
+    transform: translate(-100%, 0%);
+}
+.card:hover .services-2{
+    background-color: rgb(82, 135, 96);
+
+}
+.card:hover .icon-2{
+    background-color: white;
+    right: 25%;
+}
+.card:hover .span{
+    background-color: white;
+    color: #528760;
+}
+.kal:hover .btn{
+    box-shadow: 0px 0px 40px 0px rgba(10, 210, 142, 0.6);
+}
+.frame{
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: #589167;
+    overflow: hidden;
+}
+/* section-5 start */
+.testimony-section{
+    height: 400px;
+    background-position: center;
+    background-image: url('../images/img-4.jpg');
+    z-index: -2;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 135, 96, 0.8);
+    z-index: -1;
+}
+/* section-5 end */
+/* section-6 start */
+.blog-bol-home{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(103, 103, 103, 0.214);
+    border-radius: 50%;
+}
+.frame-2{
+    width: 80px;
+    height: 80px;
+    background-color: bisque;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.happy{
+    transform: translateY(-117px);
+}
+.box-sh{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.translate-middle-1{
+    transform: translate(-890%, -50%);
+    z-index: 2;
+}
+/* section-6 end */
+sup {
+    top: -3.5em !important;
+}
+sub {
+    bottom: -.25em !important;
+}
+.line-l{
+    width: 90%;
+    height: 1px;
+}
+
+.z-1000{
+    z-index: 2000;
+}
+/* section-8 start */
+.ftco-appointment{
+    background-attachment: fixed;
+    height: 500px;
+    background-position: center;
+    background-image: url('../images/bg_2.jpg');
+    z-index: 1;
+}
+input::placeholder{
+    color: black !important;
+}
+input,select, textarea, .fo {
+    width: 49%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+select, textarea, .fo {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+/* section-8 end */
+/* section-9 start */
+.blog{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: #F5F4F0;
+    margin-top: -50px;
+    transform: translateX(140px);
+}
+.k-wh{
+    color: rgb(25,135,84);
+}
+.card:hover .k-wh{
+    color: white;
+    background-color: #4E815C;
+}
+.k-bl{
+    color: black;
+}
+/* section-9 end */
+/* footer start */
+.f-bg{
+    background-color: #1A1A1A;
+}
+.color-of-wh{
+    color: #cccccc;
+}
+.box-bol{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4E815C;
+}
+/* footer end */
+
+/* About Pages */
+
+/* banner start */
+.banner-about{
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/bg-page-2.jpg');
+    background-attachment: fixed;
+    z-index: 1;
+}
+.overlay-ab-pg-2{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(94,147,110,1) 0%, rgba(0,212,255,0) 100%);
+    z-index: -1;
+}
+/* banner end */
+/* section-2 start */
+.font-s-50{
+    font-size: 50px;
+}
+.about-s2{
+    width: 100%;
+    height: fit-content;
+    background-color: #F5F4F0;
+}
+/* section-2 end */
+
+/* counselor Pages */
+/* section-1 start */
+.counselor-bol{
+    width: 35px;
+    height: 35px;
+    background-color: #01D28E;
+    border-radius: 50%;
+}
+.card-1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.card-f{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    transition: all 1s;
+}
+.card-icon{
+    transition: all 1s;
+}
+.card:hover .card-f{
+    transform: translateY(-15px);
+}
+.card:hover .card-icon{
+    transform: translateY(-30px);
+}
+/* section-1 end */
+
+/* Services-pages */
+.color-white-bg{
+    background-color: white;
+}
+.see:hover .ser-hover{
+    background-color: #589167;
+    color: white;
+}
+
+/* Blog-pages */
+.blog-bol{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(224, 224, 224, 0.8);
+}
+
+/* contact-page */
+.contact-bol{
+    width: 100px;
+    height: 100px;
+    background-color: #589167;
+    border-radius: 50%;
+}
+.img-contact-s2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../images/contact-img.webp')
+    /* background-image: url('../images/contact-2.jpeg'); */
+}
+.img-contact{
+    background-color: white;
+}

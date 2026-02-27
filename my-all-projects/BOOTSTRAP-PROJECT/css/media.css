@@ -1,0 +1,138 @@
+.banner{
+    background-position: top center;
+}
+.mt-315 {
+    margin-top: -48px;
+}
+.testimony-section{
+    background-size: cover;
+}
+.translate-middle-1 {
+    transform: translate(-1350%, -50%);
+}
+.card-1{
+    background-position: top center;
+}
+/* About page */
+.banner-about{
+    background-size: cover;
+    background-position: top center;
+}
+@media(max-width:575px){
+    .font-s-xs-20{
+        font-size: 20px;
+    }
+    .font-s-xs-15{
+        font-size: 12px;
+    }
+    .padding-5-xs{
+        padding: 5px;
+    }
+    .margin-0-xs{
+        margin: 0px;
+    }
+}
+@media(min-width:576px){
+   .blog-sm{
+    transform: translateX(170px);
+   }
+   .fs-sm-30{
+    font-size: 30px;
+   }
+   .font-s-sm-20{
+    font-size: 20px;
+   }
+   .font-s-sm-12{
+    font-size: 12px;
+    }
+}
+@media(min-width:768px){
+    .mt-md-100{
+        margin-top: -120px;
+    }
+    .fs-md-15{
+        font-size: 15px
+    }
+    .blog {
+        width: 90px;
+        height: 90px;
+        margin-top: -33px;
+        transform: translateX(49px);
+    }
+    .translate-middle-1-md{
+        transform: translate(-770%, -50%);
+    }
+    .font-size-15-md{
+        font-size: 15px;
+    }
+    .fs-md-40{
+        font-size: 40px;
+    }
+    .font-s-md-25{
+        font-size: 25px;
+    }
+    .fs-md-16{
+        font-size: 16px
+    }
+}
+@media(min-width:992px){
+    .bg-lg-white{
+        background-color: #ffffff !important;
+    }
+    .text-lg-black{
+        color: black !important;
+    }
+    .text-lg-white{
+        color: #ffffff !important;
+    }
+    .fs-lg-17{
+        font-size: 17px;
+    }
+    .blog-lg {
+        width: 105px;
+        height: 105px;
+        margin-top: -45px;
+        transform: translateX(75px);
+    }
+    .translate-middle-1-lg{
+        transform: translate(-1070%, -50%);
+    }
+    .font-size-lg-19{
+        font-size: 19px;
+    }
+}
+@media(min-width:1200px){
+    .fs-xl-20{
+        font-size: 20px;
+    }
+    .blog-xl{
+        width: 115px;
+        height: 115px;
+        margin-top: -50px;
+        transform: translateX(105px);
+    }
+    .translate-middle-1-xl{
+        transform: translate(-740%, -50%);
+    }
+    .fs-xl-14{
+        font-size: 14px;
+    }
+}
+@media(min-width:1400px){
+    .fs-xxl-28{
+        font-size: 28px;
+    }
+    .fs-xxl-20{
+        font-size: 20px;
+    }
+    .mt-xxl-315{
+        margin-top: -380px;
+    }
+    .blog-xxl{
+        margin-top: -55px;
+        transform: translateX(130px);
+    }
+    .translate-middle-1-xxl {
+        transform: translate(-875%, -50%);
+    }
+}

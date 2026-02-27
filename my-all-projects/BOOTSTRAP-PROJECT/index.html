@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME_PAGE</title>
+<!-- Icon -->
+    <!-- <link rel="icon" href="./images/icon.png"> -->
+     <link rel="icon" href="./images/letter-c.png">
+
+<!-- all-min-css -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+<!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+<!-- font-family: "Roboto Condensed", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+<!-- media -->
+    <link rel="stylesheet" href="./css/media.css">
+
+</head>
+
+<body>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-3 text-success text-center" id="exampleModalLabel">Sign in</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <p class="ps-3">Stay updated on your professional world </p>
+          <div class="modal-body">
+            <form class="row g-3">
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+            </form>
+            <p class="text-secondary">Forgot password? </p>
+            <button type="button" class="btn btn-success w-100 rounded-4">Sign in</button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OFFCANVAS:-1 -->
+    <div class="offcanvas offcanvas-top bg-black" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <h2 class="offcanvas-title text-white" id="offcanvasTopLabel">Counselor</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled m-0">
+            <li class="">
+                <a href="./index.html" class="text-decoration-none text-success fw-semibold">Home</a>
+            </li>
+            <li class="pt-2">
+                <a href="./pages/about-page.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">About</a>
+            <li class="pt-2">
+                <a href="./pages/counselor-page.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">Counselor</a>
+            </li>
+            <li class="pt-2">
+                <a href="./pages/Services.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">Services</a>
+            </li>
+            <li class="pt-2">
+                <a href="./pages/Pricing-page.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">Pricing</a>
+            </li>
+            <li class="pt-2">
+                <a href="./pages/blog-page.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">Blog</a>
+            </li>
+            <li class="pt-2">
+                <a href="./pages/contact-page.html" class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover text-white">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- OFFCANVAS:-2 -->
+        <!-- READ MORE -->
+    <div class="offcanvas offcanvas-start bg-black" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-success" id="offcanvasWithBothOptionsLabel">READ MORE</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h5 class="text-white">* Types of Counseling for a Better Life</h5>
+        <p class="text-white">Individual Therapy (Psychotherapy)</p>
+        <ul>
+            <li><a href="#" class="text-success text-decoration-none">Focuses on one-on-one sessions with a counselor to work through personal issues such as depression, anxiety, self-esteem, and trauma.</a></li>
+            <li><a href="#" class="text-success text-decoration-none">Helps you understand your thoughts and behaviors and find healthier coping strategies.</a></li>
+        </ul>
+        <p class="text-white">Life Coaching</p>
+        <ul>
+            <li><a href="#" class="text-success text-decoration-none">Focuses on setting and achieving personal or professional goals.</a></li>
+            <li><a href="#" class="text-success text-decoration-none">A life coach can help you clarify your values, strengthen your confidence, and create an action plan for a better, more fulfilling life.</a></li>
+        </ul>
+        <p class="text-white">Relationship Counseling (Couples Therapy)</p>
+        <ul>
+            <li><a href="#" class="text-success text-decoration-none">Focuses on improving communication and resolving conflicts in relationships, whether romantic or familial.</a></li>
+            <li><a href="#" class="text-success text-decoration-none">Helps both partners work through challenges, improve understanding, and strengthen their connection.</a></li>
+        </ul>
+        <p class="text-white">Family Therapy</p>
+        <ul>
+            <li><a href="#" class="text-success text-decoration-none">Addresses dynamics within the family unit.</a></li>
+            <li><a href="#" class="text-success text-decoration-none">Helps family members work through conflicts, improve communication, and build healthier relationships with one another.</a></li>
+        </ul>
+        <p class="text-white">Career Counseling</p>
+        <ul>
+            <li><a href="#" class="text-success text-decoration-none">Helps you explore career options, make decisions, or deal with work-related stress.</a></li>
+            <li><a href="#" class="text-success text-decoration-none">A career counselor can guide you toward making fulfilling career choices or improving job satisfaction.</a></li>
+        </ul>
+        <br><br><br><br><br><br>
+      </div>
+    </div>
+
+    <!-- header start -->
+    <div>
+        <div class="h-s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center py-2 flex-wrap flex-md-nowrap col-lg-12 col-xl-12">
+                        <div class="col-4 col-12 col-md-4 col-lg-5 col-xl-4">
+                            <div class="col-12 d-flex">
+                                <div class="col-3 col-md-6 col-lg-4 col-xl-4">
+                                    <a href="#" class="text-white text-decoration-none font-size-12">
+                                        <i class="fa-solid fa-phone" style="color: #ffffff;"></i> +00 1234 567
+                                    </a>
+                                </div>
+                                <div class="col-9 col-md-10 col-lg-6 col-xl-6">
+                                    <a href="#" class="text-white text-decoration-none font-size-12">
+                                        <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i>
+                                        muskanyadav24@email.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 d-sm-none d-none d-md-block col-md-2 col-lg-3 col-xl-5"></div>
+                        <div class="col-3 d-flex justify-content-end py-3 col-md-6 col-lg-4 col-xl-3">
+                            <i class="fa-brands fa-facebook-f ms-4 " style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-twitter ms-4 " style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-instagram ms-4 " style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-dribbble ms-4 " style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="bg-black bg-lg-white position-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center py-4">
+                    <div class="col-2">
+                        <a href="./pages/index.html" class="fs-5 fw-bold text-decoration-none text-white  text-lg-black">
+                            Counselor
+                        </a>
+                    </div>
+                    <nav class="col-10 d-flex justify-content-end justify-content-lg-end d-lg-flex d-none d-lg-block">
+                        <ul class="d-flex list-unstyled m-0">
+                            <li class="pe-5">
+                                <a href="./pages/index.html" class="text-decoration-none text-success fw-semibold">Home</a>
+                            </li>
+                            <li class="pe-5">
+                                <a href="./pages/about-page.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">About</a>
+                            <li class="pe-5">
+                                <a href="./pages/counselor-page.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">Counselor</a>
+                            </li>
+                            <li class="pe-5">
+                                <a href="./pages/Services.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">Services</a>
+                            </li>
+                            <li class="pe-5">
+                                <a href="./pages/Pricing-page.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">Pricing</a>
+                            </li>
+                            <li class="pe-5">
+                                <a href="./pages/blog-page.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">Blog</a>
+                            </li>
+                            <li class="">
+                                <a href="./pages/contact-page.html"
+                                    class="text-decoration-none text-black fw-semibold link-success link-underline-opacity-100-hover">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="col-10 d-flex justify-content-end d-lg-none">
+                        <a data-bs-toggle="offcanvas" href="#offcanvasTop"  class="text-decoration-none text-secondary fw-bold d-flex justify-content-end">MENU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- banner strat -->
+    <main>
+        <section class="banner d-flex align-items-center banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex align-items-center flex-wrap flex-sm-wrap flex-md-wrap">
+                        <div class=" col-12 col-md-9 col-lg-6 col-xl-8">
+                            <h1 class="display-3 fw-medium">
+                                <a href="#" class="text-decoration-none  text-black">
+                                    Counseling For Your <br> Better Life
+                                </a>
+                            </h1>
+                            <p class="fs-5">
+                                A small river named Duden flows by their place and supplies it <br> with the necessary regelialia.
+                            </p>
+                            <button class="btn btn-success col-4 col-xl-2 me-1 p-13 rounded-1" type="submit"  data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+                            <button class="btn btn-light col-4 col-xl-2 p-13 rounded-1" type="submit" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Read more</button>
+                        </div>
+                        <div class="col-3 d-flex position-relative button col-md-3 col-lg-6 col-xl-4" style="top:50px;">
+                            <button class="but rounded-circle bg-withe border-0 top-50 start-50 position-absolute ">
+                                <i class="fa-solid fa-play fa-xl" style="color: #589167;"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- banner end -->
+    <!-- section-1 start -->
+    <section class="ftco-intro py-5">
+             <div class="ftco d-none d-xxl-block"></div>
+             <div class="container mt-315 mt-md-100 mt-xxl-315">
+                 <div class="row">
+                    <div class="col-12 d-flex ftco-mk flex-wrap">
+                        <div class="col-4 col-12 col-md-4">
+                            <div class="col-12 d-flex align-items-center py-5 p-4 h-s flex-wrap py-md-5 p-md-4 flex-lg-wrap p-lg-5 flex-xl-nowrap py-xl-4 col-xxl-12 py-xxl-5">
+                                <div class="col-3 col-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                    <img src="./images/short-note.png" alt="">
+                                </div>
+                                <div class="col-9 text-white col-12 pt-4 col-xl-8 col-xxl-9">
+                                    <h2 class="fs-xl-20 fs-xxl-28">100% Confidential</h2>
+                                    <p class="text-light">
+                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-12 col-md-4">
+                            <div class="col-12 d-flex align-items-center py-5 p-5 bg-1 flex-wrap py-md-5 p-md-4 flex-lg-wrap p-lg-5 flex-xl-nowrap  py-xl-4 col-xxl-12 py-xxl-5 ">
+                                <div class="col-3 col-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                    <img src="./images/people.png" alt="">
+                                </div>
+                                <div class="col-9 text-white col-12 pt-4 col-xl-8 col-xxl-9">
+                                    <h2 class="fs-xl-20 fs-xxl-28">Qualified <br class="d-none d-md-block d-xl-none"> Team</h2>
+                                    <p class="text-light">
+                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-12 col-md-4">
+                            <div class="col-12 d-flex align-items-center py-5 p-4 bg-2 flex-wrap py-md-5 p-md-4 flex-lg-wrap p-lg-5 flex-xl-nowrap  py-xl-4 col-xxl-12 py-xxl-5">
+                                <div class="col-3 col-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
+                                    <img src="./images/umbrela.png" alt="">
+                                </div>
+                                <div class="col-9 text-white col-12 pt-4 col-xl-8 col-xxl-9">
+                                    <h2 class="fs-xl-20 fs-xxl-28">Individual Approach</h2>
+                                    <p class="text-light">
+                                        A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section-1 end -->
+    <!-- section-2 start -->
+    <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <p class="fs-6  fw-semibold text-success letter-spacing">SERVICES</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <h2 class=" text-secondary fw-semibold h1">How It Works</h2>
+                    </div>
+                </div>
+                <div class="row pt-5 flex-wrap">
+                    <div class="col-4 col-12 col-md-4">
+                        <div class="card border-0">
+                            <div class="d-flex justify-content-center">
+                                <div class="services-2 d-flex justify-content-center align-items-center position-relative">
+                                    <span class="span position-absolute top-0 start-100 translate-middle-tm badge rounded-circle bg p-2 fs-6">
+                                        01
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="icon z-index">
+                                        <img src="./images/schedule.png" alt="">
+                                    </div>
+                                    <div class="icon-2 position-absolute"></div>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="card-body text-center">
+                        <h2 class=" text-secondary pt-3">Make Schedule</h2>
+                        <p class=" text-secondary fs-5">A small river named Duden flows by their <br class="d-none d-xxl-block"> place and supplies it with the necessary <br class="d-none d-xxl-block"> regelialia.</p>
+                      </div>
+                    </div>
+                    <div class="col-4 col-12 col-md-4">
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center">
+                            <div class="services-2 d-flex justify-content-center align-items-center position-relative">
+                                <span class="span position-absolute top-0 start-100 translate-middle-tm badge rounded-circle bg p-2 fs-6">
+                                    02
+                                    <span class="visually-hidden">unread messages</span>
+                                  </span>
+                                <div class="icon z-index">
+                                    <img src="./images/interview.png" alt="">
+                                </div>
+                                <div class="icon-2 position-absolute"></div>
+                            </div>
+                        </div>
+                        </div>
+                      <div class="card-body text-center">
+                        <h2 class=" text-secondary pt-3">Start Discussion</h2>
+                        <p class=" text-secondary fs-5">A small river named Duden flows by their <br class="d-none d-xxl-block"> place and supplies it with the necessary <br class="d-none d-xxl-block"> regelialia.</p>
+                      </div>
+                    </div>
+                    <div class="col-4 col-12 col-md-4">
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center">
+                            <div class="services-2 d-flex justify-content-center align-items-center position-relative">
+                                <span class="span position-absolute top-0 start-100 translate-middle-tm badge rounded-circle bg p-2 fs-6">
+                                    03
+                                    <span class="visually-hidden">unread messages</span>
+                                  </span>
+                                <div class="icon z-index">
+                                    <img src="./images/task.png" alt="">
+                                </div>
+                                <div class="icon-2 position-absolute"></div>
+                            </div>
+                        </div>
+                        </div>
+                      <div class="card-body text-center">
+                        <h2 class=" text-secondary pt-3">Enjoy Plan</h2>
+                        <p class=" text-secondary fs-5">A small river named Duden flows by their <br class="d-none d-xxl-block"> place and supplies it with the necessary <br class="d-none d-xxl-block"> regelialia.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section-2 end -->
+    <!-- section-3 start -->
+    <section class="ftco-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <div class="col-6 d-none col-md-6 d-md-block">
+                            <div class="img-sectione-3"></div>
+                        </div>
+                        <div class="col-6 img-2 p-5 d-flex col-12 col-md-6">
+                            <div class="heading-section">
+                                <p class="subheding fs-6  fw-semibold text-success letter-spacing">WELCOME TO COUNSELOR</p>
+                                <h2 class="display-5 fw-semibold text-secondary">Best Counseling Funding Network Worldwide.</h2>
+                                <p class="fs-5 text-secondary pt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <p class="fs-5 text-secondary pt-3 pb-4">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+                                <div class="d-flex col-8 kal col-12 col-md-12">
+                                    <button type="button" class="btn btn-outline-success bg-transparent">
+                                        <i class="fa-solid fa-play fa-lg" style="color: #589167;"></i>
+                                    </button>
+                                    <a href="#" class="ps-3 d-flex align-items-center mb-0 text-decoration-none text-black fs-md-15">Watch Our Consultant Video</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section-3 end -->
+    <!-- section-4 start -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="fs-6  fw-normal letter-spacing text-success">OUR SERVICES</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="display-6 fw-semibold text-secondary text-center">We Can Help You With This Situation</h2>
+                </div>
+                <div class="col-12 d-flex pt-5 justify-content-between flex-wrap flex-md-nowrap">
+                    <div class="col-3 d-flex flex-column gap-2 col-12 col-md-3 p-md-1 col-lg-3">
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4">Relation Problem</button>
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4 bg-transparent text-black">Couples Counseling</button>
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4 bg-transparent text-black">Depression Treatment</button>
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4 bg-transparent text-black">Family Problem</button>
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4 bg-transparent text-black">Personal Problem</button>
+                        <button type="button" class="btn btn-success text-start fw-semibold fs-5 p-4 p-md-3 p-xl-4 bg-transparent text-black">Business Problem</button>
+                    </div>
+                    <div class="col-1 col-md-1 col-lg-1"></div>
+                    <div class="col-8 col-12 pt-2 col-md-8 col-lg-8">
+                        <div class="card border-0 d-flex p-md-0">
+                            <div class="frame">
+                                 <img src="./images/img-3.jpg" class="card-img-top h-100 object-fit-cover" alt="...">
+                             </div>
+                            <div class="card-body p-md-0 pt-md-5 pt-lg-3 pt-xl-4">
+                                <h2>Relation Problem</h2>
+                              <p class="card-text text-secondary fs-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blindtexts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-4 end -->
+    <!-- sectione-5 start -->
+    <section class="testimony-section position-relative d-flex align-items-center py-5">
+        <div class="overlay position-absolute top-0 start-0"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="fs-5  fw-medium text-white letter-spacing">TESTIMONIAL</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="display-5 text-white fw-bolder">Happy Clients</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sectione-5 end -->
+    <!-- section-6 start -->
+    <section class="py-5">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true" style="padding-top: 50px; margin-top: -205px;">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000" style="padding-top: 140px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 happy d-flex justify-content-around">
+                            <div class="col-3 position-relative col-12 col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_1.jpg" alt="" style="width: 100%;">
+                                               </div>
+                                               <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-md-block col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> 
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_2.jpg" alt="" style="width: 100%;">
+                                              </div>
+                                              <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-xl-block col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                            <div class="frame-2 col-4">
+                                             <img src="./images/person_3.jpg" alt="" style="width: 100%;">
+                                            </div>
+                                            <div class="col-8">
+                                              <div class="col-12">
+                                                  <h5 class="text-black ps-4">Roger Scott</h5>
+                                              </div>
+                                              <div class="col-12">
+                                                  <p class="text-black ps-4">Marketing Manager</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <div class="container" style="padding-top: 140px;">
+                    <div class="row">
+                        <div class="col-12 happy d-flex justify-content-around">
+                            <div class="col-3 position-relative col-12 col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_1.jpg" alt="" style="width: 100%;">
+                                               </div>
+                                               <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-md-block col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> 
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_2.jpg" alt="" style="width: 100%;">
+                                              </div>
+                                              <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-xl-block col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                            <div class="frame-2 col-4">
+                                             <img src="./images/person_3.jpg" alt="" style="width: 100%;">
+                                            </div>
+                                            <div class="col-8">
+                                              <div class="col-12">
+                                                  <h5 class="text-black ps-4">Roger Scott</h5>
+                                              </div>
+                                              <div class="col-12">
+                                                  <p class="text-black ps-4">Marketing Manager</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container" style="padding-top: 140px;">
+                    <div class="row">
+                        <div class="col-12 happy d-flex justify-content-around">
+                            <div class="col-3 position-relative col-12 col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_1.jpg" alt="" style="width: 100%;">
+                                               </div>
+                                               <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-md-block col-md-5 col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-md translate-middle-1-lg translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> 
+                                          <div class="col-12 d-flex">
+                                              <div class="frame-2 col-4">
+                                               <img src="./images/person_2.jpg" alt="" style="width: 100%;">
+                                              </div>
+                                              <div class="col-8">
+                                                <div class="col-12">
+                                                    <h5 class="text-black ps-4">Roger Scott</h5>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-black ps-4">Marketing Manager</p>
+                                                </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                            <div class="col-3 position-relative d-none d-xl-block col-xl-3">
+                                    <span class="position-absolute top-0 start-100 translate-middle-1 badge rounded-circle bg p-2 fs-6 translate-middle-1-xl translate-middle-1-xxl">
+                                        <i class="fa-solid fa-quote-left fa-lg" style="color: #ffffff;"></i>
+                                        <span class="visually-hidden">unread messages</span>
+                                    </span>
+                                    <div class="card p-3 mb-3 border-0 box-sh">
+                                        <div class="card-body">
+                                          <p class="card-text text-secondary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                          <div class="col-12 d-flex">
+                                            <div class="frame-2 col-4">
+                                             <img src="./images/person_3.jpg" alt="" style="width: 100%;">
+                                            </div>
+                                            <div class="col-8">
+                                              <div class="col-12">
+                                                  <h5 class="text-black ps-4">Roger Scott</h5>
+                                              </div>
+                                              <div class="col-12">
+                                                  <p class="text-black ps-4">Marketing Manager</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <i class="fa-solid fa-less-than fa-xl" style="color: #b5b7ba;"></i>
+              <!-- <i class="fa-solid fa-less-than fa-2xl" style="color: #528760;"></i> -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <i class="fa-solid fa-greater-than fa-xl" style="color: #b5b7ba;"></i>
+              <!-- <i class="fa-solid fa-greater-than fa-2xl" style="color: #528760;"></i> -->
+            </button>
+          </div>
+          <div class="col-12 d-flex justify-content-center pb-3">
+            <a href="#carouselExampleRide" class="blog-bol-home me-1 d-flex justify-content-center align-items-center text-decoration-none text-white bg-success"></a>
+            <a href="#carouselExampleRide" class="blog-bol-home me-1 d-flex justify-content-center align-items-center text-decoration-none text-success"></a>
+            <a href="#carouselExampleRide" class="blog-bol-home me-1 d-flex justify-content-center align-items-center text-decoration-none text-success"></a>
+            <a href="#carouselExampleRide" class="blog-bol-home me-1 d-flex justify-content-center align-items-center text-decoration-none text-success"></a>
+            <a href="#carouselExampleRide" class="blog-bol-home me-1 d-flex justify-content-center align-items-center text-decoration-none text-success"></a>
+        </div>
+    </section>
+    <!-- section-6 end -->
+    <!-- section-7 start -->
+    <section class="bg-light-clo" style="padding: 120px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="fs-6  fw-normal letter-spacing text-success">Price & Plans</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="display-5 fw-semibold text-body-secondary">Affordable Packages</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-evenly pt-5 flex-wrap">
+                    <div class="col-3 col-12 col-md-6 px-md-1 col-lg-3">
+                        <div class="card border-0 text-center p-3 rounded-0">
+                            <div class="card-body ">
+                                <span class="price">
+                                    <sup class="h6 text-secondary">$</sup>
+                                    <span class="display-3 fw-medium text-success">49</span>
+                                    <sub class="h6 text-secondary">/mo</sub>
+                                </span>
+                            </div>
+                            <ul class="mb-5 p-0">
+                                <span class="fs-5 fw-bold border-bottom-1">For Adults</span>
+                                <div class="line-l bg-secondary"></div>
+                              <li class="list-group-item mt-4 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Individual Counseling</li>
+                              <li class="list-group-item mt-3 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Couples <br class="d-sm-none d-lg-block d-xl-none"> Therapy</li>
+                              <li class="list-group-item mt-3 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Family <br class="d-sm-none d-lg-block d-xl-none"> Therapy</li>
+                            </ul>
+                            <div class="card-body d-grid">
+                                <button class="btn btn-success fw-bold color-ofw rounded-0" type="button">GET STARTED</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-3 col-12 pt-5 col-md-6 px-md-1 pt-md-0 col-lg-3">
+                        <div class="card border-0 text-center p-3 rounded-0">
+                            <div class="card-body ">
+                                <span class="price">
+                                    <sup class="h6 text-secondary">$</sup>
+                                    <span class="display-3 fw-medium text-success">79</span>
+                                    <sub class="h6 text-secondary">/mo</sub>
+                                </span>
+                            </div>
+                            <ul class="mb-5 p-0">
+                                <span class="fs-5 fw-bold border-bottom-1 ">For Children</span>
+                                <div class="line-l bg-secondary"></div>
+                              <li class="list-group-item mt-4 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Counseling for Children</li>
+                              <li class="list-group-item mt-3 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Behavioral Manage..</li>
+                              <li class="list-group-item mt-3 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Educational Counseling</li>
+                            </ul>
+                            <div class="card-body d-grid">
+                                <button class="btn btn-success fw-bold color-ofw rounded-0" type="button">GET STARTED</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-3 col-12 pt-5 d-md-none col-lg-3 d-lg-block pt-lg-0">
+                        <div class="card border-0 text-center p-3 rounded-0 ">
+                            <div class="card-body ">
+                                <span class="price">
+                                    <sup class="h6 text-secondary">$</sup>
+                                    <span class="display-3 fw-medium text-success">109</span>
+                                    <sub class="h6 text-secondary">/mo</sub>
+                                </span>
+                            </div>
+                            <ul class="mb-5 p-0">
+                                <span class="fs-5 fw-bold border-bottom-1 ">For Business</span>
+                                <div class="line-l bg-secondary"></div>
+                              <li class="list-group-item mt-4 text-secondary fs-5 "><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Consultancy Services</li>
+                              <li class="list-group-item mt-3 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Employee Counseling</li>
+                              <li class="list-group-item mt-4 text-secondary fs-5"><i class="fa-solid fa-check fa-lg me-2" style="color: #528760;"></i>Psychological Assess..</li>
+                            </ul>
+                            <div class="card-body d-grid">
+                                <button class="btn btn-success fw-bold color-ofw rounded-0" type="button">GET STARTED</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-7 end -->
+    <!-- section-8 start -->
+    <section class="ftco-appointment position-relative d-flex align-items-center py-5">
+            <div class="overlay position-absolute top-0 start-0"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-5 col-xl-12">
+                        <h2 class="text-white fw-bold">Send a Message & Get in touch!</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-5 col-12 col-md-6 col-lg-5">
+                            <form action="#" method="POST">
+                                <input type="text" name="name" placeholder="Your Name">
+                                <input type="email" name="email" placeholder="Email" >
+                                <select name="services" >
+                                    <option value="">Service</option>
+                                    <option value="Relation Problem">Relation Problem</option>
+                                    <option value="Couple Counseling">Couple Counseling</option>
+                                    <option value="Depression Treatment">Depression Treatment</option>
+                                    <option value="Family Problem">Family Problem</option>
+                                    <option value="Personal Problem">Personal Problem</option>
+                                    <option value="Business Problem">Business Problem</option>
+                                </select>
+                                <textarea name="message" placeholder="Message" rows="5"></textarea>
+                                <button class="bg-success text-white fo" type="submit">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-7"></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section-8 end -->
+    <!-- section-9 start -->
+    <section class="py-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <p class="fs-6  fw-normal letter-spacing text-success">BLOG</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <h2 class="display-5 fw-semibold text-body-secondary">Recent Blog</h2>
+                    </div>
+                    <div class="col-12 pt-5 d-flex flex-wrap flex-md-nowrap">
+                        <div class="col-4 px-3 col-12 col-md-4">
+                            <div class="card border-0 rounded-0">
+                                <img src="./images/img-5.jpg" class="card-img-top" alt="...">
+                                <div class="blog k-wh d-flex align-items-center justify-content-center flex-column blog-sm blog-lg blog-xl blog-xxl">
+                                    <span class="h2  mb-0 k-wh">18</span>
+                                    <span class="fw-bold mb-0 k-bl">APRIL</span>
+                                    <span class="font-size-12 k-bl">2020</span>
+                                </div>
+                                <div class="card-body p-md-0 pt-md-5">
+                                    <h5 class="text-center"><a href="#" class="text-decoration-none text-black fw-semibold">Social Media Risks To Mental Health</a></h5>
+                                  <p class="card-text text-secondary text-center pt-3 fs-xl-20">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-3 col-12 col-md-4">
+                            <div class="card border-0 rounded-0">
+                                <img src="./images/img-6.jpg" class="card-img-top" alt="...">
+                                <div class="blog k-wh d-flex align-items-center justify-content-center flex-column blog-sm blog-lg blog-xl blog-xxl">
+                                    <span class="h2  mb-0 k-wh">18</span>
+                                    <span class="fw-bold mb-0 k-bl">APRIL</span>
+                                    <span class="font-size-12 k-bl">2020</span>
+                                </div>
+                                <div class="card-body p-md-0 pt-md-5">
+                                    <h5 class="text-center"><a href="#" class="text-decoration-none text-black fw-semibold">Social Media Risks To Mental Health</a></h5>
+                                  <p class="card-text text-secondary text-center pt-3 fs-xl-20">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-3 col-12 col-md-4">
+                            <div class="card border-0 rounded-0">
+                                <img src="./images/img-7.jpg" class="card-img-top" alt="...">
+                                <div class="blog k-wh d-flex align-items-center justify-content-center flex-column blog-sm blog-lg blog-xl blog-xxl">
+                                    <span class="h2  mb-0 k-wh">18</span>
+                                    <span class="fw-bold mb-0 k-bl">APRIL</span>
+                                    <span class="font-size-12 k-bl">2020</span>
+                                </div>
+                                <div class="card-body p-md-0 pt-md-5">
+                                    <h5 class="text-center"><a href="#" class="text-decoration-none text-black fw-semibold ">Social Media Risks To Mental Health</a></h5>
+                                  <p class="card-text text-secondary text-center pt-3 fs-xl-20">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section-9 end -->
+    </main>
+    <!-- footer start -->
+    <footer class="f-bg py-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap">
+                    <div class="col-3 col-12 col-md-3 col-lg-3">
+                        <div class="col-12">
+                            <h4><a href="#" class="text-decoration-none text-white pt-5">Counselor</a></h4>
+                            <p class="color-of-wh  fs-19 pt-4">Far far away, behind the <br class="d-none d-lg-block"> word mountains, far from <br class="d-none d-lg-block"> the countries.</p>
+                        </div>
+                        <div class="col-12 d-flex col-md-12 ">
+                            <div class="box-bol d-flex justify-content-center align-items-center me-3 me-md-1 me-lg-3">
+                                <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+                            </div>
+                            <div class="box-bol d-flex justify-content-center align-items-center me-3 me-md-1 me-lg-3">
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
+                            </div>
+                            <div class="box-bol d-flex justify-content-center align-items-center me-3 me-md-1 me-lg-3">
+                                <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 col-12 col-md-3 col-lg-2">
+                        <div class="col-12">
+                            <h5 class="text-white fw-bold pt-5 pt-md-0 ms-2">Explore</h5>
+                            <ul class="ps-0 pt-4">
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1 ms-2" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">About</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1 ms-2" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Contact</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1 ms-2" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">What We Do</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1 ms-2" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Plans & Pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2 col-12 col-md-3 col-lg-2">
+                        <div class="col-12">
+                            <h5 class="text-white fw-bold pt-5 pt-md-0">Legal</h5>
+                            <ul class="ps-0 pt-4">
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Join us</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Blog</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Privacy & Policy</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Term & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2 col-12 col-md-3 col-lg-2">
+                        <div class="col-12">
+                            <h5 class="text-white fw-bold pt-5 pt-md-0">Company</h5>
+                            <ul class="ps-0 pt-4">
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">About Us</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Blog</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Contact</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="fa-solid fa-chevron-right me-1" style="color: #ffffff;"></i>
+                                    </a>
+                                    <a href="#" class="text-decoration-none color-of-wh">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-12 col-md-4 col-lg-3">
+                        <div class="col-12">
+                            <h5 class="text-white fw-bold pt-5 pt-md-5 pt-lg-0">Have a Questions?</h5>
+                            <ul class="ps-0 pt-4">
+                                <li class="list-unstyled mb-3 d-flex">
+                                    <span><i class="fa-solid fa-map" style="color: #ffffff;"></i></span>
+                                    <span class="color-of-wh ms-3">203 Fake St. Mountain <br> View, San Francisco, <br> California, USA</span>
+                                </li>
+                                <li class="list-unstyled mb-3 d-flex">
+                                    <span><i class="fa-solid fa-phone" style="color: #ffffff;"></i></span>
+                                    <span class="color-of-wh ms-3">+2 392 3929 210</a>
+                                </li>
+                                <li class="list-unstyled mb-3">
+                                    <span class="text-white"><i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></span>
+                                    <span class="color-of-wh ms-3">info@yourdomain.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bg-black py-5 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h5 class="text-secondary fs-6 mb-0">Design By <i class="fa-regular fa-heart" style="color: #528760"></i> <a href="#" class="text-decoration-none text-success fon">MUSKAN YADAV</a></h5></div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+<!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
